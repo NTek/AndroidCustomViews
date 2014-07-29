@@ -34,8 +34,7 @@ public class RoundedImageView extends ImageView {
 				R.styleable.RoundedImageView);
 
 		mCornerRadius = lTypedArray.getDimensionPixelSize(
-				R.styleable.RoundedImageView_corner_radius, -1)
-				* getResources().getDisplayMetrics().density;
+				R.styleable.RoundedImageView_corner_radius, -1);
 		mCornerRadius = mCornerRadius > 0 ? mCornerRadius : 0f;
 
 		mCorners[0] = lTypedArray.getBoolean(

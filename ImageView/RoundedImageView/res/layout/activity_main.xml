@@ -1,0 +1,17 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:round_image="http://schemas.android.com/apk/res/com.ntek"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.ntek.accelerated.hardware.RoundedImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        round_image:oval="true"
+        android:src="@drawable/image"
+        round_image:corner_radius="30dp" >
+    </com.ntek.accelerated.hardware.RoundedImageView>
+
+</merge>
